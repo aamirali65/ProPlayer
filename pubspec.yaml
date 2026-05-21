@@ -1,0 +1,70 @@
+name: proplayer
+description: "NovaPlayer - Premium Offline Media Player"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Routing
+  go_router: ^14.6.2
+
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.3.5
+
+  # Audio
+  just_audio: ^0.9.42
+  audio_service: ^0.18.15
+  audio_video_progress_bar: ^2.0.3
+  on_audio_query: ^2.9.0
+
+  # Video
+  video_player: ^2.9.2
+  chewie: ^1.8.5
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Utilities
+  path_provider: ^2.1.5
+  wakelock_plus: ^1.2.10
+  flutter_animate: ^4.5.2
+  dynamic_color: ^1.7.0
+  palette_generator: ^0.3.3+5
+  uuid: ^4.5.1
+  path: ^1.9.0
+  collection: ^1.19.0
+  intl: ^0.20.1
+  cached_network_image: ^3.4.1
+  video_thumbnail: ^0.5.6
+
+  # Fonts
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  riverpod_generator: ^2.6.3
+  build_runner: ^2.4.14
+  custom_lint: ^0.7.0
+  riverpod_lint: ^2.6.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/

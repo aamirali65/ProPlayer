@@ -5,10 +5,11 @@ It combines a powerful music player and advanced video player in one app, inspir
 
 ---
 
-## 📥 Download
+## 📥 Download ProPlayer
 
-👉 [Click here to download ProPlayer APK](
-)
+Download the latest version of ProPlayer here:
+
+➡️ **[Download APK](https://github.com/aamirali65/ProPlayer/releases/tag/v1.0.0)**
 
 ---
 
